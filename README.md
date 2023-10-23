@@ -14,7 +14,7 @@ If you want to you can configure the system again by using this command:
 p10k configure
 ```
 
-## prequesites
+## prerequisites
 
 git needs to be installed to download this repository. You can install git with this command
 ```
