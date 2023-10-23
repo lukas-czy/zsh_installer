@@ -14,6 +14,10 @@ If you want to you can configure the system again by using this command:
 p10k configure
 ```
 
+## Notice:
+
+Please create an issue or give me a hint if anything about this script does not work. I am happy to help.
+
 ## prerequisites
 
 git needs to be installed to download this repository. You can install git with this command
