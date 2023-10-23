@@ -1,5 +1,5 @@
 # zsh_installer
-This Repository holds a script and config files to install zsh with addons and my preferred configurations to a ubuntu system.
+This Repository holds a script and config files to install zsh with addons and my preferred configurations to a ubuntu system for the current user.
 
 In detail the script installs the following:
 - zsh
@@ -24,7 +24,7 @@ sudo apt-get install git-all
 ## install with one merged command
 
 ```
-sudo rm -r /tmp/zsh_installer; git clone https://github.com/lukas-czy/zsh_installer.git /tmp/zsh_installer; sudo chmod u+x /tmp/zsh_installer/install_zsh.sh; sudo /tmp/zsh_installer/./install_zsh.sh; sudo rm -r /tmp/zsh_installer
+sudo rm -r /tmp/zsh_installer; git clone https://github.com/lukas-czy/zsh_installer.git /tmp/zsh_installer; sudo chmod u+x /tmp/zsh_installer/install_zsh.sh; sudo runuser $USER /tmp/zsh_installer/./install_zsh.sh; sudo rm -r /tmp/zsh_installer
 ```
 
 ## install with a step by step command guide
@@ -39,7 +39,7 @@ chmod u+x /tmp/zsh_installer/install_zsh.sh
 ```
 3. run the script
 ```
-sudo /tmp/zsh_installer/./install_zsh.sh
+sudo runuser $USER /tmp/zsh_installer/./install_zsh.sh
 ```
 4. remove the cloned install script / clean up
 ```
