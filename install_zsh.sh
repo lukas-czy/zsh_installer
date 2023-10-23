@@ -15,4 +15,3 @@ cp /tmp/zsh_installer/p10k.zsh ~/.p10k.zsh
 echo 'POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true' >>! ~/.zshrc
 echo "setting default shell to zsh"
 chsh -s $(which zsh)
-zsh
