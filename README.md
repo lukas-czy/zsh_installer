@@ -1,5 +1,18 @@
 # zsh_installer
-This Repository holds a script to install zsh with addons and my preferred configurations to a ubuntu system
+This Repository holds a script and config files to install zsh with addons and my preferred configurations to a ubuntu system.
+
+In detail the script installs the following:
+- zsh
+- powerlevel10k theme
+- zsh-autosuggestions
+- zsh-syntax-highlighting
+- preferences for a rainbow style and a german keyboard
+
+You can use this script to have a one liner to install zsh on your favorite linux system. 
+If you want to you can configure the system again by using this command:
+```
+p10k configure
+```
 
 ## prequesites
 
