@@ -12,8 +12,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 sudo rm -r ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 echo "installing configurations"
-sudo cp -f /tmp/zsh_installer/zshrc ~/.zshrc
-sudo cp -f /tmp/zsh_installer/p10k.zsh ~/.p10k.zsh
+sudo cp -f -v /tmp/zsh_installer/zshrc ~/.zshrc
+sudo cp -f -v /tmp/zsh_installer/p10k.zsh ~/.p10k.zsh
 
 echo 'POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true' >>! ~/.zshrc
 echo "setting default shell to zsh"
