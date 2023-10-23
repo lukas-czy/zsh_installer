@@ -59,7 +59,7 @@ sudo apt-get --purge remove zsh
 
 ## Helpers
 
-to manually configure the zsh design / p10k use this command:
+to manually configure the zsh design use this command:
 ```
 p10k configure
 ```
