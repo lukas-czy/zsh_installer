@@ -1,25 +1,48 @@
 # zsh_installer
 This Repository holds a script to install zsh with addons and my preferred configurations to a ubuntu system
 
-## use the installer
+## prequesites
 
-1. install git on the blank ubuntu server:
+git needs to be installed to download this repository. You can install git with this command
 ```
 sudo apt-get install git-all
 ```
-2. clone this repository:
+
+## install with one merged command
+
+```
+rm -r /tmp/zsh_installer; git clone https://github.com/lukas-czy/zsh_installer.git /tmp/zsh_installer; chmod u+x /tmp/zsh_installer/install_zsh.sh; /tmp/zsh_installer/./install_zsh.sh; rm -r /tmp/zsh_installer
+```
+
+## install with a step by step command guide
+
+1. clone this repository:
 ```
 git clone https://github.com/lukas-czy/zsh_installer.git /tmp/zsh_installer
 ```
-3. give the skripts the rights to execute
+2. give the skripts the rights to execute
 ```
 chmod u+x /tmp/zsh_installer/install_zsh.sh
 ```
-4. run the script
+3. run the script
 ```
 /tmp/zsh_installer/./install_zsh.sh
 ```
-5. remove the cloned install script / clean up
+4. remove the cloned install script / clean up
 ```
 rm -r /tmp/zsh_installer
+```
+
+## uninstall
+
+to uninstall zsh use this command:
+```
+sudo apt-get --purge remove zsh
+```
+
+## Helpers
+
+to manually configure the zsh design / p10k use this command:
+```
+p10k configure
 ```
