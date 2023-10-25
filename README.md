@@ -28,7 +28,7 @@ sudo apt-get install git-all
 ## install with one merged command
 
 ```
-sudo rm -r /tmp/zsh_installer; git clone https://github.com/lukas-czy/zsh_installer.git /tmp/zsh_installer; sudo chmod u+x /tmp/zsh_installer/install_zsh.sh; sudo runuser $USER /tmp/zsh_installer/./install_zsh.sh; sudo rm -r /tmp/zsh_installer
+sudo rm -r /tmp/zsh_installer; git clone https://github.com/lukas-czy/zsh_installer.git /tmp/zsh_installer; sudo chmod u+x /tmp/zsh_installer/install_zsh.sh; sudo runuser $USER /tmp/zsh_installer/./install.sh; sudo rm -r /tmp/zsh_installer
 ```
 
 ## install with a step by step command guide
@@ -39,7 +39,7 @@ git clone https://github.com/lukas-czy/zsh_installer.git /tmp/zsh_installer
 ```
 2. give the skripts the rights to execute
 ```
-chmod u+x /tmp/zsh_installer/install_zsh.sh
+chmod u+x /tmp/zsh_installer/install.sh
 ```
 3. run the script
 ```
