@@ -18,8 +18,8 @@ sudo cp -f -v /tmp/zsh_installer/p10k.zsh ~/.p10k.zsh
 echo 'POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true' >>! ~/.zshrc
 
 echo "installing font"
-sudo cp -f -v "/tmp/zsh_installer/Meslo NF Regular.ttf" "/usr/share/consolefonts/Meslo NF Regular.ttf"
-echo "FONT='Meslo NF Regular.ttf'" >>! /etc/default/console-setup
+sudo cp -f -v /tmp/zsh_installer/MesloLGS\ NF\ Regular.ttf /usr/share/consolefonts/MesloLGS\ NF\ Regular.ttf
+echo "FONT='MesloLGS NF Regular.ttf'" >>! /etc/default/console-setup
 
 echo "setting default shell to zsh"
 chsh -s $(which zsh)
